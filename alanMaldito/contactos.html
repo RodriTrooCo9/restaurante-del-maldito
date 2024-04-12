@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FORMULARIO</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, 
+    minimum-scale=1.0">
+    <!--Cambiar los tipos de Fuente - Titillium -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo3.css">
+</head>
+
+<body>
+    [00:12] ERICK WEIMAR MORALES COLQUE
+<nav class="navbar navbar-expand-md navbar-light bg-primary fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Restaurant "Maestro" Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Página Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurant.html">Restaurante</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carta.html">La Carta</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contactos.html">Dónde estamos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+ 
+<!-- Inicio del formulario -->
+<div class="container">
+    <div class="title text-center">
+        <h3>Contactese con nosotros</h3>
+        <p>Agradecemos el interés en contactarse con nosotros sobre nuestros platos a la carta. Por favor, rellene el siguiente formulario y enseguida estaremos respondiendo.</p>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <form>
+                <input type="text" name="nombre" placeholder="Ingrese su Nombre" required>
+                <input type="email" name="correo" placeholder="Ingrese su Correo" required>
+                <input type="tel" name="celular" placeholder="Ingrese su Celular" required>
+                <input type="text" name="empresa" placeholder="Empresa (Opcional)">
+                <textarea name="mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-justify">
+            <br>
+            <strong>¿Deseas algún plato en especial?</strong>
+            <p>Ponte en contacto con nosotros a través de este formulario. Atendemos eventos en general y también preparamos cualquier tipo de plato al gusto del cliente, como por ejemplo: Chicharrón, Fricasé, Pique Macho, etc.</p>
+            <img src="img/contactos/platos-tipicos-bolivia.jpg" class="img-fluid" alt="Platos Típicos de Bolivia">
+        </div>
+    </div>
+</div>
+    
+    
+
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
